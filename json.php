@@ -3,7 +3,7 @@ header('Access-Control-Allow-Origin:*');
 header("Content-Type: text/javascript; charset=utf-8");
 
 $json = array(
-  "hoge" => "foo"
+  "foo" => $_GET["foo"]
 );
 
 echo json_encode(
